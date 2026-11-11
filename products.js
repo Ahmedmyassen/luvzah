@@ -29,7 +29,7 @@ const PRODUCTS = [
     price: 20,
     category: "كوكيز كلاسيك",
     tag: "",
-    image: "ChatGPT_Image_2026_8_21_03_13_43.webp"
+    image: "7881cc70-477b-4f5f-b5b9-f179973f914d-removebg-preview.png"
   },
   {
     name: "S'mores cookie Dream",
