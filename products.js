@@ -20,25 +20,25 @@ const PRODUCTS = [
     price: 18,
     category: "كوكيز كلاسيك",
     tag: "الأكثر طلباً",
-    image: "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?auto=format&fit=crop&w=900&q=85"
+    image: "ChatGPT_Image_2026_8_21_03_13_43.webp"
   },
   {
-    name: "Triple Chocolate",
-    nameAr: "تريبل شوكولاتة",
-    description: "لعشاق الشوكولاتة بكل تفاصيلها",
+    name: "Nutella Chocolate",
+    nameAr: "شوكولاتة النوتيلا",
+    description: "لعشاق النوتيلا بكل تفاصيلها",
     price: 20,
     category: "كوكيز كلاسيك",
     tag: "",
-    image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=900&q=85"
+    image: "ChatGPT_Image_2026_8_21_03_13_43.webp"
   },
   {
-    name: "Lotus Dream",
-    nameAr: "كوكيز اللوتس",
-    description: "نكهة اللوتس الغنية",
+    name: "S'mores cookie Dream",
+    nameAr: "كوكيز سمورز",
+    description: "نكهة المارشميلو الغنية",
     price: 20,
     category: "كوكيز محشية",
     tag: "مميز",
-    image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=900&q=85"
+    image: "1-removebg-preview.png"
   },
   {
     name: "Cookies & Cream",
