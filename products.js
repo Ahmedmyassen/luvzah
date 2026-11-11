@@ -47,7 +47,7 @@ const PRODUCTS = [
     price: 20,
     category: "كوكيز كلاسيك",
     tag: "",
-    image: "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=900&q=85"
+    image: "ChatGPT_Image_2026_8_21_03_07_47.webp"
   },
   {
     name: "Stuffed Cookie",
