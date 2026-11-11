@@ -20,25 +20,25 @@ const PRODUCTS = [
     price: 18,
     category: "كوكيز كلاسيك",
     tag: "الأكثر طلباً",
-    image: "https://ilymily.com/cdn/shop/files/ChatGPT_Image_2026_8_21_03_13_43.png?v=1787339760&width=3840"
+    image: "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?auto=format&fit=crop&w=900&q=85"
   },
   {
-    name: "nutella Chocolate",
-    nameAr: "نوتيلا شوكولاتة",
+    name: "Triple Chocolate",
+    nameAr: "تريبل شوكولاتة",
     description: "لعشاق الشوكولاتة بكل تفاصيلها",
     price: 20,
     category: "كوكيز كلاسيك",
     tag: "",
-    image: "https://drive.google.com/file/d/1X8IkoqZOu6Nm51u_Rl0dnxkoN-Y_4b8a/view?usp=sharing"
+    image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=900&q=85"
   },
   {
-    name: "Kinder cookies",
-    nameAr: "كندر كوكي",
-    description: "نكهة الكندر",
+    name: "Lotus Dream",
+    nameAr: "كوكيز اللوتس",
+    description: "نكهة اللوتس الغنية",
     price: 20,
     category: "كوكيز محشية",
     tag: "مميز",
-    image: "https://drive.google.com/file/d/1JfNROFRa0wqlOqQZlsEpFLdVysAP59wR/view?usp=sharing"
+    image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=900&q=85"
   },
   {
     name: "Cookies & Cream",
@@ -47,7 +47,7 @@ const PRODUCTS = [
     price: 20,
     category: "كوكيز كلاسيك",
     tag: "",
-    image: "https://drive.google.com/file/d/1vdap-6jodzJkse_-Dl87UXLUQ2LgNpEX/view?usp=sharing"
+    image: "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=900&q=85"
   },
   {
     name: "Stuffed Cookie",
