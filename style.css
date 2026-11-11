@@ -1,0 +1,75 @@
+*{box-sizing:border-box}
+:root{--chocolate:#2b1812;--deep:#211e1c;--caramel:#b87945;--cream:#f5ebdd;--beige:#d9c3a5;--ink:#2a201b;--muted:#806b5c;--line:rgba(43,24,18,.15)}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:"IBM Plex Sans Arabic",sans-serif}
+a{color:inherit;text-decoration:none}
+.site-header{height:88px;padding:0 clamp(22px,7vw,110px);display:flex;align-items:center;justify-content:space-between;background:var(--chocolate);color:var(--cream);position:sticky;top:0;z-index:20;border-bottom:1px solid rgba(245,235,221,.12)}
+.brand{display:flex;flex-direction:column;align-items:center;line-height:1}
+.brand-name{font-family:"DM Sans",sans-serif;font-size:35px;letter-spacing:-2px;font-weight:500;position:relative}
+.brand-spark{color:var(--caramel);font-size:13px;position:absolute;top:-3px;right:-12px}
+.brand-sub{font-family:"DM Sans",sans-serif;font-size:8px;letter-spacing:3px;margin-top:6px}
+.desktop-nav{display:flex;gap:36px;font-size:13px;color:#e7d9c9}
+.desktop-nav a{transition:color .2s}.desktop-nav a:hover{color:#d9a36e}
+.header-cta,.primary-button,.light-button,.whatsapp-button{display:inline-flex;align-items:center;justify-content:center;gap:16px;border-radius:100px;font-weight:600}
+.header-cta{border:1px solid rgba(245,235,221,.5);padding:12px 20px;font-size:12px}
+.header-cta span{color:#d99c61}
+.menu-toggle{display:none;background:none;border:0;color:var(--cream);font-size:25px}
+.hero{background:var(--chocolate);color:var(--cream);min-height:610px;padding:80px clamp(24px,9vw,145px) 55px;display:grid;grid-template-columns:1fr 1.05fr;align-items:center;gap:5%;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;width:580px;height:580px;border:1px solid rgba(184,121,69,.2);border-radius:50%;left:-280px;top:-300px}
+.hero-copy{position:relative;z-index:2;padding-bottom:35px}
+.eyebrow,.section-kicker{font-family:"DM Sans","IBM Plex Sans Arabic",sans-serif;font-size:10px;letter-spacing:2.5px;color:var(--caramel);font-weight:700}
+.eyebrow{display:flex;align-items:center;gap:10px}.eyebrow span{width:25px;height:1px;background:var(--caramel)}
+.hero h1{font-size:clamp(42px,5.3vw,76px);line-height:1.35;font-weight:500;margin:24px 0 18px;letter-spacing:-1.8px}
+h1 em,h2 em{font-style:normal;color:#d69b62}
+.hero-description{color:#cdb9a7;font-size:16px;line-height:2;max-width:390px;margin:0 0 30px}
+.primary-button{background:var(--cream);color:var(--chocolate);padding:15px 25px;font-size:13px;min-width:170px;transition:transform .2s}.primary-button:hover,.light-button:hover,.whatsapp-button:hover{transform:translateY(-3px)}
+.primary-button span{font-size:18px}
+.hero-art{height:430px;position:relative;display:flex;align-items:center;justify-content:center}
+.hero-image{width:min(100%,510px);height:390px;object-fit:cover;border-radius:48% 48% 8px 8px;position:relative;z-index:1;filter:saturate(.85)}
+.hero-orbit{position:absolute;width:470px;height:470px;border:1px solid rgba(184,121,69,.45);border-radius:50%;transform:rotate(-18deg)}
+.hero-orbit:after{content:"✦";position:absolute;color:var(--caramel);font-size:30px;top:30px;right:70px}
+.hero-note{position:absolute;bottom:0;left:0;background:#f5ebdd;color:var(--chocolate);padding:14px 20px;border-radius:5px;display:flex;align-items:center;gap:13px;z-index:2;box-shadow:0 12px 35px #160b0780}
+.hero-note>span{font-size:26px;color:var(--caramel)}.hero-note strong,.hero-note small{display:block}.hero-note strong{font:600 12px "DM Sans"}.hero-note small{font-size:9px;color:var(--muted);margin-top:4px}
+.hero-bottomline{position:absolute;bottom:24px;right:clamp(24px,9vw,145px);left:clamp(24px,9vw,145px);display:flex;justify-content:space-between;color:#987a65;font:9px "DM Sans";letter-spacing:2px}
+.intro-strip{padding:55px clamp(24px,10vw,160px);display:grid;grid-template-columns:50px 1fr 1fr;align-items:center;gap:25px;border-bottom:1px solid var(--line)}
+.intro-mark{font-size:37px;color:var(--caramel)}.intro-strip h2{font-size:24px;font-weight:500;margin:8px 0 0}
+.intro-strip>p{font-size:13px;line-height:2;color:var(--muted);max-width:440px;margin:0}
+.menu-section{padding:95px clamp(24px,9vw,145px) 85px}
+.section-heading{display:flex;justify-content:space-between;align-items:end;margin-bottom:38px}
+.section-heading h2,.contact-section h2{font-size:43px;font-weight:500;margin:8px 0 0;letter-spacing:-1px}
+.section-heading p{color:var(--muted);font-size:13px;margin:0 0 7px}
+.category-row{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:27px}
+.category-chip{border:1px solid var(--line);background:transparent;border-radius:50px;padding:9px 20px;font:500 12px "IBM Plex Sans Arabic";color:var(--muted);cursor:pointer;transition:.2s}
+.category-chip.active,.category-chip:hover{background:var(--chocolate);color:var(--cream);border-color:var(--chocolate)}
+.product-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.product-card{background:#eee0ce;border-radius:7px;overflow:hidden;transition:transform .25s,box-shadow .25s}
+.product-card:hover{transform:translateY(-5px);box-shadow:0 15px 35px #2b18121a}
+.product-image-wrap{height:235px;overflow:hidden;background:#e4d1ba;position:relative}
+.product-image{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s}
+.product-card:hover .product-image{transform:scale(1.04)}
+.product-tag{position:absolute;top:14px;right:14px;background:var(--chocolate);color:var(--cream);border-radius:30px;padding:6px 12px;font-size:10px}
+.product-info{padding:18px 19px 20px}
+.product-name{font-size:17px;font-weight:600;margin:0 0 5px}
+.product-description{font-size:11px;color:var(--muted);margin:0 0 18px;min-height:22px}
+.product-bottom{display:flex;align-items:center;justify-content:space-between;border-top:1px solid rgba(43,24,18,.13);padding-top:13px}
+.product-price{font:600 17px "DM Sans";color:var(--chocolate)}.product-price small{font:400 10px "IBM Plex Sans Arabic";margin-right:4px}
+.menu-footnote{text-align:center;color:#9a8472;font-size:11px;margin:30px 0 0}
+.closing-banner{margin:0 clamp(24px,7vw,110px);padding:48px clamp(25px,6vw,85px);background:var(--chocolate);color:var(--cream);display:flex;align-items:center;justify-content:space-between;gap:25px;position:relative;overflow:hidden}
+.closing-banner:after{content:"";position:absolute;width:260px;height:260px;border:1px solid #b879454d;border-radius:50%;left:-80px;top:-140px}
+.closing-decoration{font-size:55px;color:var(--caramel)}
+.closing-banner h2{font-size:34px;font-weight:500;margin:8px 0}.closing-banner p{color:#cdb9a7;font-size:12px;margin:0}
+.light-button{background:var(--cream);color:var(--chocolate);padding:14px 22px;font-size:12px;white-space:nowrap;transition:.2s;z-index:1}
+.contact-section{text-align:center;padding:95px 24px 100px}
+.contact-icon{font-size:32px;color:var(--caramel);margin-bottom:17px}
+.contact-section h2{font-size:40px;margin:10px 0}
+.contact-section>p{color:var(--muted);font-size:13px;margin:0 auto 25px}
+.whatsapp-button{background:#315b43;color:white;padding:16px 27px;font-size:13px;transition:.2s;min-width:260px}
+.wa-icon{font-size:20px}.phone-hint{display:block;color:#9a8472;font-size:10px;margin-top:13px}
+.site-footer{background:var(--deep);color:var(--cream);padding:40px 24px 25px;text-align:center;display:flex;align-items:center;flex-direction:column;gap:15px}
+.footer-brand .brand-name{font-size:29px}.footer-brand .brand-sub{font-size:7px}
+.site-footer>p{font:italic 12px "DM Sans";color:#c5a88f;margin:0}
+.footer-links{display:flex;gap:25px;font-size:11px;color:#d8c7b8;margin:5px 0}
+.site-footer>small{font-size:9px;color:#9e8979;border-top:1px solid #ffffff1a;padding-top:20px;width:min(100%,600px)}
+.empty-state{grid-column:1/-1;text-align:center;color:var(--muted);padding:35px}
+@media(max-width:800px){.site-header{height:75px;padding:0 22px}.desktop-nav{display:none;position:absolute;top:75px;right:0;left:0;background:var(--chocolate);padding:22px;flex-direction:column;gap:20px;text-align:center;border-top:1px solid #ffffff20}.desktop-nav.open{display:flex}.header-cta{margin-right:auto;margin-left:17px;padding:10px 13px;font-size:10px}.menu-toggle{display:block}.hero{grid-template-columns:1fr;padding:55px 25px 65px;gap:22px}.hero-copy{padding:0}.hero h1{font-size:49px}.hero-art{height:330px}.hero-image{height:300px;width:min(88%,440px)}.hero-orbit{width:330px;height:330px}.hero-note{left:0;bottom:-4px}.hero-bottomline{bottom:17px}.intro-strip{grid-template-columns:35px 1fr;gap:15px;padding:38px 25px}.intro-strip>p{grid-column:2}.intro-strip h2{font-size:20px}.menu-section{padding:65px 22px}.section-heading{align-items:start;flex-direction:column;gap:10px}.section-heading h2{font-size:37px}.product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.product-image-wrap{height:190px}.product-info{padding:14px}.product-name{font-size:14px}.product-description{font-size:10px}.product-price{font-size:15px}.closing-banner{margin:0 18px;padding:35px 24px;flex-wrap:wrap}.closing-decoration{display:none}.closing-banner h2{font-size:29px}.light-button{margin-top:5px}.contact-section{padding:70px 20px}.contact-section h2{font-size:34px}}
+@media(max-width:420px){.brand-name{font-size:30px}.header-cta{gap:7px}.hero h1{font-size:42px}.hero-art{height:285px}.hero-image{height:260px}.hero-orbit{width:280px;height:280px}.product-grid{gap:10px}.product-image-wrap{height:155px}.product-info{padding:12px}.product-name{font-size:13px}.product-description{min-height:34px}.product-bottom{padding-top:10px}.category-chip{padding:8px 14px}}

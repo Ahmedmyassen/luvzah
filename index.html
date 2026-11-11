@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2b1812">
+  <meta name="description" content="luvzah Cookies — لحظات حلوة تبدأ بقطعة كوكيز. اكتشفوا منيو لوفزة.">
+  <title>luvzah | Cookies</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="luvzah home">
+      <span class="brand-name">luvzah<span class="brand-spark">✦</span></span>
+      <span class="brand-sub">C O O K I E S</span>
+    </a>
+    <nav class="desktop-nav" aria-label="القائمة الرئيسية">
+      <a href="#home">الرئيسية</a>
+      <a href="#menu">المنيو</a>
+      <a href="#about">عن لوفزة</a>
+      <a href="#contact">تواصل معنا</a>
+    </nav>
+    <a class="header-cta" href="#menu">اكتشف المنيو <span>↙</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> BAKED WITH LOVE</p>
+        <h1>لحظات حلوة<br>تبدأ بقطعة <em>كوكيز.</em></h1>
+        <p class="hero-description">نكهات تُخبز بعناية، وتفاصيل صغيرة تصنع لحظات كبيرة.</p>
+        <a class="primary-button" href="#menu">تصفح المنيو <span>←</span></a>
+      </div>
+      <div class="hero-art">
+        <div class="hero-orbit"></div>
+        <img src="https://images.unsplash.com/photo-1499209974431-9dddcece7f88?auto=format&fit=crop&w=1200&q=85" alt="كوكيز طازج بالشوكولاتة" class="hero-image">
+        <div class="hero-note"><span>✦</span><div><strong>Freshly baked</strong><small>Made for your happy moments</small></div></div>
+      </div>
+      <div class="hero-bottomline"><span>SMALL BITES. BIG HAPPINESS.</span><span>EST. 2026</span></div>
+    </section>
+
+    <section class="intro-strip" id="about">
+      <div class="intro-mark">✳</div>
+      <div><span class="section-kicker">A LITTLE ABOUT US</span><h2>حلاوة التفاصيل، في كل لقمة.</h2></div>
+      <p>في لوفزة، نؤمن أن أبسط اللحظات تستحق طعماً استثنائياً. اكتشفوا تشكيلتنا واستمتعوا بكل قطعة.</p>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <div class="section-heading">
+        <div><span class="section-kicker">MADE TO MAKE YOU SMILE</span><h2>منيو <em>لوفزة</em></h2></div>
+        <p>اختياراتنا المفضلة، مخبوزة بكل حب.</p>
+      </div>
+      <div class="category-row" id="categories" aria-label="تصنيفات المنتجات"></div>
+      <div class="product-grid" id="productGrid"></div>
+      <p class="menu-footnote">المنتجات والتوفر قد تختلف حسب اليوم.</p>
+    </section>
+
+    <section class="closing-banner">
+      <div class="closing-decoration">✦</div>
+      <div><span class="section-kicker">A SWEET MOMENT AWAITS</span><h2>خلّوا يومكم <em>أحلى.</em></h2><p>اختاروا نكهتكم المفضلة وتواصلوا معنا للطلب.</p></div>
+      <a class="light-button" href="#contact">اطلبوا عبر واتساب <span>↗</span></a>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-icon">✳</div>
+      <span class="section-kicker">WE'D LOVE TO HEAR FROM YOU</span>
+      <h2>للطلب والاستعلام</h2>
+      <p>يسعدنا تواصلكم معنا. لأي طلب أو استفسار، نحن بانتظاركم.</p>
+      <a class="whatsapp-button" id="whatsappLink" href="#" target="_blank" rel="noopener">
+        <span class="wa-icon">◉</span> تواصل معنا عبر واتساب <span>↗</span>
+      </a>
+      <small class="phone-hint" id="phoneHint">أضف رقم واتساب من ملف products.js لتفعيل الزر</small>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#home"><span class="brand-name">luvzah<span class="brand-spark">✦</span></span><span class="brand-sub">C O O K I E S</span></a>
+    <p>Small Bites. Big Happiness.</p>
+    <div class="footer-links"><a href="#home">الرئيسية</a><a href="#menu">المنيو</a><a href="#contact">تواصل معنا</a></div>
+    <small>© <span id="year"></span> luvzah cookies. جميع الحقوق محفوظة.</small>
+  </footer>
+
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
