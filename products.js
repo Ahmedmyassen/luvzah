@@ -20,7 +20,7 @@ const PRODUCTS = [
     price: 18,
     category: "كوكيز كلاسيك",
     tag: "الأكثر طلباً",
-    image: "https://drive.google.com/file/d/1X8IkoqZOu6Nm51u_Rl0dnxkoN-Y_4b8a/view?usp=sharing"
+    image: "https://ilymily.com/cdn/shop/files/ChatGPT_Image_2026_8_21_03_13_43.png?v=1787339760&width=3840"
   },
   {
     name: "nutella Chocolate",
