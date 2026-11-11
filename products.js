@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: 20,
     category: "كوكيز محشية",
     tag: "مميز",
-    image: "1-removebg-preview.png"
+    image: "ChatGPT_Image_2026_8_21_03_11_57.webp"
   },
   {
     name: "Cookies & Cream",
